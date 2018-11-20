@@ -1,6 +1,6 @@
 package com.example.android.viewpager.enums
 
-enum class Days(name: String) {
+enum class Days(val dayName: String) {
     MONDAY("Monday"),
     TUESDAY("Tuesday"),
     WEDNESDAY("Wednesday"),
