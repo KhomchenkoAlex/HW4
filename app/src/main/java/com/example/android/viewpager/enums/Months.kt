@@ -1,6 +1,6 @@
 package com.example.android.viewpager.enums
 
-enum class Months(name: String) {
+enum class Months(val monthName: String) {
     JANUARY("January"),
     FEBRUARY("February"),
     MARCH("March"),
