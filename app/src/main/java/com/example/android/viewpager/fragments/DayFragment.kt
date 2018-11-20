@@ -1,4 +1,4 @@
-package com.example.android.viewpager.fragment
+package com.example.android.viewpager.fragments
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -9,13 +9,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.android.viewpager.R
-import com.example.android.viewpager.adapter.RecyclerViewAdapter
+import com.example.android.viewpager.adapters.RecyclerViewAdapter
 import com.example.android.viewpager.decorator.ItemDecorator
 import com.example.android.viewpager.enums.Days
 
-class DayFragment: Fragment() {
+class DayFragment : Fragment() {
 
-    private val daysList= Days.values().asList().map { it -> it.dayName }
+    private val daysList = Days.values().asList().map { it -> it.dayName }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.day_fragment, container, false)

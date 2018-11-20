@@ -4,10 +4,10 @@ import android.os.Bundle
 import android.support.design.widget.TabLayout
 import android.support.v4.view.ViewPager
 import android.support.v7.app.AppCompatActivity
-import com.example.android.viewpager.adapter.ViewPagerAdapter
-import com.example.android.viewpager.fragment.DayFragment
-import com.example.android.viewpager.fragment.MonthFragment
-import com.example.android.viewpager.fragment.SignFragment
+import com.example.android.viewpager.adapters.ViewPagerAdapter
+import com.example.android.viewpager.fragments.DayFragment
+import com.example.android.viewpager.fragments.MonthFragment
+import com.example.android.viewpager.fragments.SignFragment
 
 class MainActivity : AppCompatActivity() {
     private val fragments = mutableListOf(DayFragment() to "Days",

@@ -1,4 +1,4 @@
-package com.example.android.viewpager.fragment
+package com.example.android.viewpager.fragments
 
 import android.os.Bundle
 import android.support.v4.app.Fragment
@@ -8,11 +8,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.example.android.viewpager.R
-import com.example.android.viewpager.adapter.SignRecyclerViewAdapter
+import com.example.android.viewpager.adapters.SignRecyclerViewAdapter
 import com.example.android.viewpager.decorator.ItemDecorator
 import com.example.android.viewpager.enums.Signs
 
-class SignFragment: Fragment(){
+class SignFragment : Fragment() {
 
     private val columns = 3
     private val signsList = Signs.values().map { it -> Pair(it.signName, it.image) }
