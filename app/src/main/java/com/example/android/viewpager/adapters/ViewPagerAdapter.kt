@@ -1,4 +1,4 @@
-package com.example.android.viewpager.adapter
+package com.example.android.viewpager.adapters
 
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentManager
